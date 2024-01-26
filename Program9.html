@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            padding:0px;
+            margin:0px;
+        }
+        .nav-items{
+            padding: 30px 2px 30px 2px;
+            background-color: aquamarine;
+        }
+        .list-items{
+            display: inline-block;
+            margin-left: 30px;
+        }
+        .list-items a{
+            text-decoration: line-through;
+            color: beige;
+
+        }
+        .active{
+            color: blanchedalmond;
+            text-decoration: solid;
+        }
+        .list-items a:hover{
+            color: blueviolet;
+            text-decoration: wavy;
+            transition: 0.4s ease;
+        }
+
+        
+        
+
+    </style>
+</head>
+<body>
+    <nav class="nav-items">
+        <ul>
+            <li class="list-items"><a href="#">home</a></li>
+            <li class="list-items items active"><a href="#">gallery</a></li>
+            <li class="list-items"><a href="#">products</a></li>
+            <li class="list-items items"><a href="#">items</a></li>
+            <li class="list-items items"><a href="#">about</a> </li>
+        </ul>
+    </nav>
+</body>
+</html>
